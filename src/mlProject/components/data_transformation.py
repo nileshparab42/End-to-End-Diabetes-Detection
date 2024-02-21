@@ -5,7 +5,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 import pandas as pd
 
-
 from sklearn.preprocessing import StandardScaler
 
 class DataTransformation:
@@ -25,6 +24,10 @@ class DataTransformation:
         scaler = StandardScaler()
         train[independent_cols] = scaler.fit_transform(train[independent_cols])
         test[independent_cols] = scaler.transform(test[independent_cols])
+
+        # Reshape the target variable to 1-dimensional array
+        y_train = train.iloc[:, -1].values.ravel()
+        y_test = test.iloc[:, -1].values.ravel()
 
         # Save the transformed datasets
         train.to_csv(os.path.join(self.config.root_dir, "train.csv"), index=False)
