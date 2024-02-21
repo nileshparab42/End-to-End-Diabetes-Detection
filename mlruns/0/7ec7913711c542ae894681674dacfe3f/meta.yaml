@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Nilesh/Documents/GitHub/End-to-End-Diabetes-Detection/mlruns/0/7ec7913711c542ae894681674dacfe3f/artifacts
+end_time: 1708538552101
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7ec7913711c542ae894681674dacfe3f
+run_name: redolent-owl-393
+run_uuid: 7ec7913711c542ae894681674dacfe3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708538547046
+status: 3
+tags: []
+user_id: Nilesh

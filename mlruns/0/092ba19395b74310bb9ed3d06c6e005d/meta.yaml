@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Nilesh/Documents/GitHub/End-to-End-Diabetes-Detection/mlruns/0/092ba19395b74310bb9ed3d06c6e005d/artifacts
+end_time: 1708538730462
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 092ba19395b74310bb9ed3d06c6e005d
+run_name: whimsical-pig-759
+run_uuid: 092ba19395b74310bb9ed3d06c6e005d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708538726202
+status: 3
+tags: []
+user_id: Nilesh

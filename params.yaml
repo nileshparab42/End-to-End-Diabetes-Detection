@@ -1,7 +1,15 @@
 LogisticRegression:
-  penalty: 'l2'
-  C: 0.1
-  solver: 'liblinear'
-  max_iter: 100
+  # penalty: 'l2'
+  # C: 0.1
+  # solver: 'liblinear'
+  # max_iter: 100
+  # class_weight: 'balanced'
+  # multi_class: 'auto'
+
+  
+  penalty: 'l1'
+  C: 0.01
+  solver: 'saga'
+  max_iter: 300
   class_weight: 'balanced'
-  multi_class: 'auto'
+  multi_class: 'ovr'

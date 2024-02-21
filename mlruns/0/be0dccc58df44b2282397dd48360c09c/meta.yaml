@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Nilesh/Documents/GitHub/End-to-End-Diabetes-Detection/mlruns/0/be0dccc58df44b2282397dd48360c09c/artifacts
+end_time: 1708538394475
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: be0dccc58df44b2282397dd48360c09c
+run_name: loud-hare-442
+run_uuid: be0dccc58df44b2282397dd48360c09c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708538390772
+status: 3
+tags: []
+user_id: Nilesh
